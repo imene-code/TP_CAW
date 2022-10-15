@@ -21,7 +21,7 @@ s.addEventListener("mouseover", function() {
       alert("CONGRATULATIONS! YOU WIN!");
     }
     if(win == false && m==false){
-        alert("hfnfhyezi")
+        alert("No cheating, You moved cursor from outside maze")
         stat.innerHTML = "YOU LOSE!"
         walls[i].style.background ="red";
       }
